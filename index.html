@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Inventory Management</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Pharmacy Inventory Management</h1>
+    </header>
+<nav>
+   <a href="sell.html"><button>Customer</button></a> 
+   <a href="index.html"> <button>Admin</button></a>
+</nav>
+    <main>
+        <section class="form-section">
+            <h2>Enter Bought Drugs</h2>
+            <form id="buy-drugs-form">
+                <label for="drug-name">Drug Name:</label>
+                <input type="text" id="drug-name" name="drug-name" required><br>
+
+                <label for="amount">Amount Bought:</label>
+                <input type="number" id="amount" name="amount" min="1" required><br>
+
+                <input type="submit" value="Add to Inventory" class="btn">
+            </form>
+        </section>
+
+        <section class="inventory-section">
+            <h2>Available Drugs</h2>
+            <p>Total Available: <span id="total-available">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pharmacy Inventory Management. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
