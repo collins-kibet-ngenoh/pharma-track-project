@@ -1,0 +1,67 @@
+body {
+    background-color: aquamarine;
+}
+.hidden {
+    display: none;
+  }
+  
+  #add-stock-form {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #close-form-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 4px;
+  }
+  
+  #add-stock-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #add-stock-form input {
+    margin-bottom: 10px;
+  }
+  
+  #add-stock-form button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding:10px 20px;
+    cursor: pointer;
+  }
+  
+  #add-stock-form button:hover {
+    background-color: darkgreen;
+  }
+  
+  .product-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    float: left;
+  }
+  
+  .product-item img {
+    width: 100%;
+  }
+  #add-stock-btn{
+    background-color: aqua;
+    margin-left: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 40%;
+    height: 100px;
+  }
